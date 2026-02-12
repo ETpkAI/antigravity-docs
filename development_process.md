@@ -68,7 +68,8 @@ Antigravity 将在不同阶段扮演以下角色：
 
 ## 4. 模型与工具分配 (Models & Tools Assignment)
 
-Antigravity 支持根据任务类型“路由”到最适合的模型或工具（概念模型）：
+Antigravity 支持根据任务类型“路由”到最适合的模型或工具（概念模型）。
+> **注意**: 当前 Antigravity 无法自动跨模型切换。需要 **用户 (You)** 根据当前阶段的提示，在 IDE/界面中手动选择对应模型。
 
 *   **👨‍💻 编码 (Coding)**: 
     *   **首选模型**: Claude 3.5 Sonnet / GPT-4o (以逻辑严密著称)。
