@@ -15,6 +15,8 @@
     *   定义了 Git 分支策略 (Git Flow/Trunk Based) 和提交信息规范 (Conventional Commits)。
 *   **[测试策略 (Testing Strategy)](testing_strategy.md)**
     *   确立了测试金字塔模型、覆盖率目标及前后端测试工具链。
+*   **[开发协同流程 (Development Process)](development_process.md)**
+    *   定义了议题讨论、角色分工与执行的 SOP 流程。
 
 ### 架构与技术栈 (Architecture & Tech Stack)
 *   **[架构设计模式 (Architecture Patterns)](architecture_patterns.md)**
