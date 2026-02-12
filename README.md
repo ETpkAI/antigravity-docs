@@ -28,6 +28,40 @@
 *   **[文档编写指南 (Documentation Guide)](documentation_guide.md)**
     *   规范了 README、API 文档和 Changelog 的编写标准。
 
+## 🚀 快速环境搭建 (Quick Environment Setup)
+
+为了确保 Antigravity 能发挥最大效能，请确保您的本地环境安装了以下核心工具链。
+
+### 一键安装脚本 (macOS)
+
+复制以下命令并在终端运行，即可完成所有基础工具的安装：
+
+```bash
+# 1. 安装 Homebrew (如果尚未安装)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 2. 配置环境变量 (Apple Silicon)
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# 3. 安装核心工具链
+brew install git gh node python3
+brew install --cask docker
+
+# 4. 登录 GitHub CLI
+gh auth login
+```
+
+### 验证安装 (Verification)
+
+```bash
+git --version
+gh --version
+docker --version
+node --version
+python3 --version
+```
+
 ## 🤝 贡献 (Contributing)
 
 如果您发现任何规范有待改进，欢迎提交 Pull Request 或 Issue。所有的变更都应遵循 [文档编写指南](documentation_guide.md)。
